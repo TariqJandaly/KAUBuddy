@@ -1,15 +1,13 @@
-"use client"
-
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="absolute inset-0 h-full w-full bg-black bg-[linear-gradient(to_right,#80808012_2px,transparent_2px),linear-gradient(to_bottom,#80808012_2px,transparent_2px)] bg-[size:24px_24px]">
-      <div className="w-screen h-screen flex flex-col items-center justify-center relative px-4">
+    <div className="min-h-screen w-full bg-black bg-[linear-gradient(to_right,#80808012_2px,transparent_2px),linear-gradient(to_bottom,#80808012_2px,transparent_2px)] bg-[size:24px_24px]">
+      <div className="w-full min-h-screen flex flex-col items-center justify-center relative px-4 py-12">
 
         {/* Welcome Text */}
-        <h1 className="text-5xl leading-loose font-extrabold text-center bg-gradient-to-r from-green-400 via-blue-500 to-teal-600 text-transparent bg-clip-text mb-6 animated-gradient">
+        <h1 className="text-5xl leading-loose font-extrabold text-center bg-gradient-to-r from-green-400 via-blue-500 to-teal-600 text-transparent bg-clip-text mb-6">
           Welcome to KAUBuddy
         </h1>
 
@@ -30,7 +28,7 @@ export default function Home() {
         </Link>
 
         {/* Footer */}
-        <p className="absolute text-sm bottom-6 text-gray-500">
+        <p className="mt-12 text-sm text-gray-500">
           &copy; {new Date().getFullYear()} KAUBuddy. All rights reserved.
         </p>
       </div>
