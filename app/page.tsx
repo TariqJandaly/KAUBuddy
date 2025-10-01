@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 
+export const runtime = "edge"
+
 export default function Home() {
   return (
     <div className="w-screen h-screen flex flex-col items-center justify-center relative px-4">
