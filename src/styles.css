@@ -128,3 +128,13 @@
     background-position: 0% 0%;
   }
 }
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
