@@ -11,3 +11,5 @@ export const getRouter = () => {
     defaultPreloadStaleTime: 0,
   })
 }
+
+export { createRouter }
